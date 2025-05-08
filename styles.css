@@ -1,0 +1,49 @@
+.pdf {
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+body {
+    overflow-y: scroll;
+}
+* {
+    align-self: center;
+    justify-content: center;
+}
+header {
+    height: 60px;
+}
+main {
+    height: calc(100vh - 160px);
+    margin-bottom: 50px;
+
+}
+object * {
+    width: fit-content !important;
+}
+object {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+object div {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    overflow-wrap: normal;
+    word-wrap: normal;
+    tab-size: 4ex;
+    text-indent: 4ex;
+    line-height: 2rem;
+    padding: 0;
+    margin: 0;
+}
+h5 {
+    text-align: center;
+}

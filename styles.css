@@ -7,6 +7,7 @@
 * {
     align-self: center;
     justify-content: center;
+    color: white;
 }
 header {
     height: 60px;
@@ -21,6 +22,7 @@ main > p {
 }
 object * {
     width: fit-content !important;
+    color: white;
 }
 object {
     display: flex;
@@ -36,6 +38,7 @@ object div {
     margin: 50px;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 p {
     overflow-wrap: normal;
@@ -49,4 +52,5 @@ p {
 }
 h5 {
     text-align: center;
+    color: white;
 }
